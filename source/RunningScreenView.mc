@@ -209,8 +209,9 @@ class RunningScreenView extends WatchUi.DataField {
     private function drawHearRateIndicator(dc as Dc) as Void {
         hrColor = getHRColor(hrValue, hrZones);
         dc.setColor(hrColor, hrColor);
-        dc.setPenWidth(HR_BORDER_THICKNESS);
+        dc.setPenWidth(14);
         dc.drawArc(centerX, centerY, centerX, Graphics.ARC_CLOCKWISE, 180, 140); // Left part of the box
+        dc.setPenWidth(HR_BORDER_THICKNESS);
         dc.drawLine(0, HR_BORDER_THICKNESS + dc.getHeight() / 6, centerX, HR_BORDER_THICKNESS + dc.getHeight() / 6); // Top part of the box
         dc.drawLine(centerX - HR_BORDER_THICKNESS, centerY, centerX - HR_BORDER_THICKNESS, dc.getHeight() / 6); // Right part of the box
         dc.drawLine(0, centerY - HR_BORDER_THICKNESS, centerX, centerY - HR_BORDER_THICKNESS); // Bottom part of the box

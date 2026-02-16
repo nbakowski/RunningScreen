@@ -1072,7 +1072,7 @@ _Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_m
     [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 209; @symbol_functiondef = [drawHearRateIndicator,209,21,42]; @symbol_param<0> = [dc,209,43,45]; @symbol_param<0>_type<0> = [Dc,209,49,51]; ]
     private
     function drawHearRateIndicator(dc as Dc) as Void {
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_209_61_217_4_start:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_209_61_218_4_start:
 [ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 210 8 ]
         %tmp.1 = self;
         symbol [ getHRColor %tmp.2 210 18 28 ];
@@ -1099,769 +1099,776 @@ _Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_m
         symbol [ dc %tmp.14 212 8 10 ];
         symbol [ setPenWidth %tmp.15 212 11 22 ];
         %tmp.15 = getv function %tmp.14 :setPenWidth;
-        symbol [ HR_BORDER_THICKNESS %tmp.17 212 23 42 ];
-        %tmp.17 = getv ? :HR_BORDER_THICKNESS;
-        invoke %tmp.14 %tmp.15(%tmp.17);
+        %tmp.16 = 14;
+        invoke %tmp.14 %tmp.15(%tmp.16);
 [ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 213 8 ]
-        %tmp.18 = lgetv %dc;
-        symbol [ dc %tmp.18 213 8 10 ];
-        symbol [ drawArc %tmp.19 213 11 18 ];
-        %tmp.19 = getv function %tmp.18 :drawArc;
-        symbol [ centerX %tmp.21 213 19 26 ];
-        %tmp.21 = getv ? :centerX;
-        symbol [ centerY %tmp.23 213 28 35 ];
-        %tmp.23 = getv ? :centerY;
-        symbol [ centerX %tmp.25 213 37 44 ];
-        %tmp.25 = getv ? :centerX;
-        symbol [ Graphics %tmp.26 213 46 54 ];
-        %tmp.26 = getm $.Toybox.Graphics;
-        symbol [ ARC_CLOCKWISE %tmp.27 213 55 68 ];
-        %tmp.27 = getv %tmp.26 :ARC_CLOCKWISE;
-        %tmp.28 = 180;
-        %tmp.29 = 140;
-        invoke %tmp.18 %tmp.19(%tmp.21, %tmp.23, %tmp.25, %tmp.27, %tmp.28, %tmp.29);
+        %tmp.17 = lgetv %dc;
+        symbol [ dc %tmp.17 213 8 10 ];
+        symbol [ drawArc %tmp.18 213 11 18 ];
+        %tmp.18 = getv function %tmp.17 :drawArc;
+        symbol [ centerX %tmp.20 213 19 26 ];
+        %tmp.20 = getv ? :centerX;
+        symbol [ centerY %tmp.22 213 28 35 ];
+        %tmp.22 = getv ? :centerY;
+        symbol [ centerX %tmp.24 213 37 44 ];
+        %tmp.24 = getv ? :centerX;
+        symbol [ Graphics %tmp.25 213 46 54 ];
+        %tmp.25 = getm $.Toybox.Graphics;
+        symbol [ ARC_CLOCKWISE %tmp.26 213 55 68 ];
+        %tmp.26 = getv %tmp.25 :ARC_CLOCKWISE;
+        %tmp.27 = 180;
+        %tmp.28 = 140;
+        invoke %tmp.17 %tmp.18(%tmp.20, %tmp.22, %tmp.24, %tmp.26, %tmp.27, %tmp.28);
 [ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 214 8 ]
-        %tmp.30 = lgetv %dc;
-        symbol [ dc %tmp.30 214 8 10 ];
-        symbol [ drawLine %tmp.31 214 11 19 ];
-        %tmp.31 = getv function %tmp.30 :drawLine;
-        %tmp.32 = 0;
-        symbol [ HR_BORDER_THICKNESS %tmp.34 214 23 42 ];
-        %tmp.34 = getv ? :HR_BORDER_THICKNESS;
-        %tmp.35 = lgetv %dc;
-        symbol [ dc %tmp.35 214 45 47 ];
-        symbol [ getHeight %tmp.36 214 48 57 ];
-        %tmp.36 = getv function %tmp.35 :getHeight;
-        %tmp.37 = invoke %tmp.35 %tmp.36();
-        %tmp.38 = 6;
-        %tmp.39 = div %tmp.37 %tmp.38;
-        %tmp.40 = add %tmp.34 %tmp.39;
-        symbol [ centerX %tmp.42 214 65 72 ];
-        %tmp.42 = getv ? :centerX;
-        symbol [ HR_BORDER_THICKNESS %tmp.44 214 74 93 ];
-        %tmp.44 = getv ? :HR_BORDER_THICKNESS;
-        %tmp.45 = lgetv %dc;
-        symbol [ dc %tmp.45 214 96 98 ];
-        symbol [ getHeight %tmp.46 214 99 108 ];
-        %tmp.46 = getv function %tmp.45 :getHeight;
-        %tmp.47 = invoke %tmp.45 %tmp.46();
-        %tmp.48 = 6;
-        %tmp.49 = div %tmp.47 %tmp.48;
-        %tmp.50 = add %tmp.44 %tmp.49;
-        invoke %tmp.30 %tmp.31(%tmp.32, %tmp.40, %tmp.42, %tmp.50);
+        %tmp.29 = lgetv %dc;
+        symbol [ dc %tmp.29 214 8 10 ];
+        symbol [ setPenWidth %tmp.30 214 11 22 ];
+        %tmp.30 = getv function %tmp.29 :setPenWidth;
+        symbol [ HR_BORDER_THICKNESS %tmp.32 214 23 42 ];
+        %tmp.32 = getv ? :HR_BORDER_THICKNESS;
+        invoke %tmp.29 %tmp.30(%tmp.32);
 [ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 215 8 ]
-        %tmp.51 = lgetv %dc;
-        symbol [ dc %tmp.51 215 8 10 ];
-        symbol [ drawLine %tmp.52 215 11 19 ];
-        %tmp.52 = getv function %tmp.51 :drawLine;
-        symbol [ centerX %tmp.54 215 20 27 ];
-        %tmp.54 = getv ? :centerX;
-        symbol [ HR_BORDER_THICKNESS %tmp.56 215 30 49 ];
-        %tmp.56 = getv ? :HR_BORDER_THICKNESS;
-        %tmp.57 = sub %tmp.54 %tmp.56;
-        symbol [ centerY %tmp.59 215 51 58 ];
-        %tmp.59 = getv ? :centerY;
-        symbol [ centerX %tmp.61 215 60 67 ];
-        %tmp.61 = getv ? :centerX;
-        symbol [ HR_BORDER_THICKNESS %tmp.63 215 70 89 ];
-        %tmp.63 = getv ? :HR_BORDER_THICKNESS;
-        %tmp.64 = sub %tmp.61 %tmp.63;
-        %tmp.65 = lgetv %dc;
-        symbol [ dc %tmp.65 215 91 93 ];
-        symbol [ getHeight %tmp.66 215 94 103 ];
-        %tmp.66 = getv function %tmp.65 :getHeight;
-        %tmp.67 = invoke %tmp.65 %tmp.66();
-        %tmp.68 = 6;
-        %tmp.69 = div %tmp.67 %tmp.68;
-        invoke %tmp.51 %tmp.52(%tmp.57, %tmp.59, %tmp.64, %tmp.69);
+        %tmp.33 = lgetv %dc;
+        symbol [ dc %tmp.33 215 8 10 ];
+        symbol [ drawLine %tmp.34 215 11 19 ];
+        %tmp.34 = getv function %tmp.33 :drawLine;
+        %tmp.35 = 0;
+        symbol [ HR_BORDER_THICKNESS %tmp.37 215 23 42 ];
+        %tmp.37 = getv ? :HR_BORDER_THICKNESS;
+        %tmp.38 = lgetv %dc;
+        symbol [ dc %tmp.38 215 45 47 ];
+        symbol [ getHeight %tmp.39 215 48 57 ];
+        %tmp.39 = getv function %tmp.38 :getHeight;
+        %tmp.40 = invoke %tmp.38 %tmp.39();
+        %tmp.41 = 6;
+        %tmp.42 = div %tmp.40 %tmp.41;
+        %tmp.43 = add %tmp.37 %tmp.42;
+        symbol [ centerX %tmp.45 215 65 72 ];
+        %tmp.45 = getv ? :centerX;
+        symbol [ HR_BORDER_THICKNESS %tmp.47 215 74 93 ];
+        %tmp.47 = getv ? :HR_BORDER_THICKNESS;
+        %tmp.48 = lgetv %dc;
+        symbol [ dc %tmp.48 215 96 98 ];
+        symbol [ getHeight %tmp.49 215 99 108 ];
+        %tmp.49 = getv function %tmp.48 :getHeight;
+        %tmp.50 = invoke %tmp.48 %tmp.49();
+        %tmp.51 = 6;
+        %tmp.52 = div %tmp.50 %tmp.51;
+        %tmp.53 = add %tmp.47 %tmp.52;
+        invoke %tmp.33 %tmp.34(%tmp.35, %tmp.43, %tmp.45, %tmp.53);
 [ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 216 8 ]
-        %tmp.70 = lgetv %dc;
-        symbol [ dc %tmp.70 216 8 10 ];
-        symbol [ drawLine %tmp.71 216 11 19 ];
-        %tmp.71 = getv function %tmp.70 :drawLine;
-        %tmp.72 = 0;
-        symbol [ centerY %tmp.74 216 23 30 ];
-        %tmp.74 = getv ? :centerY;
-        symbol [ HR_BORDER_THICKNESS %tmp.76 216 33 52 ];
-        %tmp.76 = getv ? :HR_BORDER_THICKNESS;
-        %tmp.77 = sub %tmp.74 %tmp.76;
-        symbol [ centerX %tmp.79 216 54 61 ];
-        %tmp.79 = getv ? :centerX;
-        symbol [ centerY %tmp.81 216 63 70 ];
-        %tmp.81 = getv ? :centerY;
-        symbol [ HR_BORDER_THICKNESS %tmp.83 216 73 92 ];
-        %tmp.83 = getv ? :HR_BORDER_THICKNESS;
-        %tmp.84 = sub %tmp.81 %tmp.83;
-        invoke %tmp.70 %tmp.71(%tmp.72, %tmp.77, %tmp.79, %tmp.84);
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_209_61_217_4_stop:
+        %tmp.54 = lgetv %dc;
+        symbol [ dc %tmp.54 216 8 10 ];
+        symbol [ drawLine %tmp.55 216 11 19 ];
+        %tmp.55 = getv function %tmp.54 :drawLine;
+        symbol [ centerX %tmp.57 216 20 27 ];
+        %tmp.57 = getv ? :centerX;
+        symbol [ HR_BORDER_THICKNESS %tmp.59 216 30 49 ];
+        %tmp.59 = getv ? :HR_BORDER_THICKNESS;
+        %tmp.60 = sub %tmp.57 %tmp.59;
+        symbol [ centerY %tmp.62 216 51 58 ];
+        %tmp.62 = getv ? :centerY;
+        symbol [ centerX %tmp.64 216 60 67 ];
+        %tmp.64 = getv ? :centerX;
+        symbol [ HR_BORDER_THICKNESS %tmp.66 216 70 89 ];
+        %tmp.66 = getv ? :HR_BORDER_THICKNESS;
+        %tmp.67 = sub %tmp.64 %tmp.66;
+        %tmp.68 = lgetv %dc;
+        symbol [ dc %tmp.68 216 91 93 ];
+        symbol [ getHeight %tmp.69 216 94 103 ];
+        %tmp.69 = getv function %tmp.68 :getHeight;
+        %tmp.70 = invoke %tmp.68 %tmp.69();
+        %tmp.71 = 6;
+        %tmp.72 = div %tmp.70 %tmp.71;
+        invoke %tmp.54 %tmp.55(%tmp.60, %tmp.62, %tmp.67, %tmp.72);
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 217 8 ]
+        %tmp.73 = lgetv %dc;
+        symbol [ dc %tmp.73 217 8 10 ];
+        symbol [ drawLine %tmp.74 217 11 19 ];
+        %tmp.74 = getv function %tmp.73 :drawLine;
+        %tmp.75 = 0;
+        symbol [ centerY %tmp.77 217 23 30 ];
+        %tmp.77 = getv ? :centerY;
+        symbol [ HR_BORDER_THICKNESS %tmp.79 217 33 52 ];
+        %tmp.79 = getv ? :HR_BORDER_THICKNESS;
+        %tmp.80 = sub %tmp.77 %tmp.79;
+        symbol [ centerX %tmp.82 217 54 61 ];
+        %tmp.82 = getv ? :centerX;
+        symbol [ centerY %tmp.84 217 63 70 ];
+        %tmp.84 = getv ? :centerY;
+        symbol [ HR_BORDER_THICKNESS %tmp.86 217 73 92 ];
+        %tmp.86 = getv ? :HR_BORDER_THICKNESS;
+        %tmp.87 = sub %tmp.84 %tmp.86;
+        invoke %tmp.73 %tmp.74(%tmp.75, %tmp.80, %tmp.82, %tmp.87);
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_209_61_218_4_stop:
     }
-    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 219; @symbol_functiondef = [drawBorders,219,21,32]; @symbol_param<0> = [dc,219,33,35]; @symbol_param<0>_type<0> = [Dc,219,39,41]; ]
+    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 220; @symbol_functiondef = [drawBorders,220,21,32]; @symbol_param<0> = [dc,220,33,35]; @symbol_param<0>_type<0> = [Dc,220,39,41]; ]
     private
     function drawBorders(dc as Dc) as Void {
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_219_51_226_4_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 220 8 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_220_51_227_4_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 221 8 ]
         %tmp.1 = lgetv %dc;
-        symbol [ dc %tmp.1 220 8 10 ];
-        symbol [ setPenWidth %tmp.2 220 11 22 ];
+        symbol [ dc %tmp.1 221 8 10 ];
+        symbol [ setPenWidth %tmp.2 221 11 22 ];
         %tmp.2 = getv function %tmp.1 :setPenWidth;
         %tmp.3 = 7;
         invoke %tmp.1 %tmp.2(%tmp.3);
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 221 8 ]
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 222 8 ]
         %tmp.4 = lgetv %dc;
-        symbol [ dc %tmp.4 221 8 10 ];
-        symbol [ setColor %tmp.5 221 11 19 ];
+        symbol [ dc %tmp.4 222 8 10 ];
+        symbol [ setColor %tmp.5 222 11 19 ];
         %tmp.5 = getv function %tmp.4 :setColor;
-        symbol [ Graphics %tmp.6 221 20 28 ];
+        symbol [ Graphics %tmp.6 222 20 28 ];
         %tmp.6 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.7 221 29 40 ];
+        symbol [ COLOR_WHITE %tmp.7 222 29 40 ];
         %tmp.7 = getv %tmp.6 :COLOR_WHITE;
-        symbol [ Graphics %tmp.8 221 42 50 ];
+        symbol [ Graphics %tmp.8 222 42 50 ];
         %tmp.8 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.9 221 51 68 ];
+        symbol [ COLOR_TRANSPARENT %tmp.9 222 51 68 ];
         %tmp.9 = getv %tmp.8 :COLOR_TRANSPARENT;
         invoke %tmp.4 %tmp.5(%tmp.7, %tmp.9);
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 222 8 ]
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 223 8 ]
         %tmp.10 = lgetv %dc;
-        symbol [ dc %tmp.10 222 8 10 ];
-        symbol [ drawLine %tmp.11 222 11 19 ];
+        symbol [ dc %tmp.10 223 8 10 ];
+        symbol [ drawLine %tmp.11 223 11 19 ];
         %tmp.11 = getv function %tmp.10 :drawLine;
-        symbol [ centerX %tmp.13 222 20 27 ];
+        symbol [ centerX %tmp.13 223 20 27 ];
         %tmp.13 = getv ? :centerX;
         %tmp.14 = lgetv %dc;
-        symbol [ dc %tmp.14 222 29 31 ];
-        symbol [ getHeight %tmp.15 222 32 41 ];
+        symbol [ dc %tmp.14 223 29 31 ];
+        symbol [ getHeight %tmp.15 223 32 41 ];
         %tmp.15 = getv function %tmp.14 :getHeight;
         %tmp.16 = invoke %tmp.14 %tmp.15();
         %tmp.17 = lgetv %dc;
-        symbol [ dc %tmp.17 222 46 48 ];
-        symbol [ getHeight %tmp.18 222 49 58 ];
+        symbol [ dc %tmp.17 223 46 48 ];
+        symbol [ getHeight %tmp.18 223 49 58 ];
         %tmp.18 = getv function %tmp.17 :getHeight;
         %tmp.19 = invoke %tmp.17 %tmp.18();
         %tmp.20 = 6;
         %tmp.21 = div %tmp.19 %tmp.20;
         %tmp.22 = sub %tmp.16 %tmp.21;
-        symbol [ centerX %tmp.24 222 66 73 ];
+        symbol [ centerX %tmp.24 223 66 73 ];
         %tmp.24 = getv ? :centerX;
         %tmp.25 = lgetv %dc;
-        symbol [ dc %tmp.25 222 75 77 ];
-        symbol [ getHeight %tmp.26 222 78 87 ];
+        symbol [ dc %tmp.25 223 75 77 ];
+        symbol [ getHeight %tmp.26 223 78 87 ];
         %tmp.26 = getv function %tmp.25 :getHeight;
         %tmp.27 = invoke %tmp.25 %tmp.26();
         %tmp.28 = 6;
         %tmp.29 = div %tmp.27 %tmp.28;
         invoke %tmp.10 %tmp.11(%tmp.13, %tmp.22, %tmp.24, %tmp.29);
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 223 8 ]
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 224 8 ]
         %tmp.30 = lgetv %dc;
-        symbol [ dc %tmp.30 223 8 10 ];
-        symbol [ drawLine %tmp.31 223 11 19 ];
+        symbol [ dc %tmp.30 224 8 10 ];
+        symbol [ drawLine %tmp.31 224 11 19 ];
         %tmp.31 = getv function %tmp.30 :drawLine;
         %tmp.32 = 0;
         %tmp.33 = lgetv %dc;
-        symbol [ dc %tmp.33 223 23 25 ];
-        symbol [ getHeight %tmp.34 223 26 35 ];
+        symbol [ dc %tmp.33 224 23 25 ];
+        symbol [ getHeight %tmp.34 224 26 35 ];
         %tmp.34 = getv function %tmp.33 :getHeight;
         %tmp.35 = invoke %tmp.33 %tmp.34();
         %tmp.36 = 6;
         %tmp.37 = div %tmp.35 %tmp.36;
         %tmp.38 = lgetv %dc;
-        symbol [ dc %tmp.38 223 43 45 ];
-        symbol [ getWidth %tmp.39 223 46 54 ];
+        symbol [ dc %tmp.38 224 43 45 ];
+        symbol [ getWidth %tmp.39 224 46 54 ];
         %tmp.39 = getv function %tmp.38 :getWidth;
         %tmp.40 = invoke %tmp.38 %tmp.39();
         %tmp.41 = lgetv %dc;
-        symbol [ dc %tmp.41 223 58 60 ];
-        symbol [ getHeight %tmp.42 223 61 70 ];
+        symbol [ dc %tmp.41 224 58 60 ];
+        symbol [ getHeight %tmp.42 224 61 70 ];
         %tmp.42 = getv function %tmp.41 :getHeight;
         %tmp.43 = invoke %tmp.41 %tmp.42();
         %tmp.44 = 6;
         %tmp.45 = div %tmp.43 %tmp.44;
         invoke %tmp.30 %tmp.31(%tmp.32, %tmp.37, %tmp.40, %tmp.45);
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 224 8 ]
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 225 8 ]
         %tmp.46 = lgetv %dc;
-        symbol [ dc %tmp.46 224 8 10 ];
-        symbol [ drawLine %tmp.47 224 11 19 ];
+        symbol [ dc %tmp.46 225 8 10 ];
+        symbol [ drawLine %tmp.47 225 11 19 ];
         %tmp.47 = getv function %tmp.46 :drawLine;
         %tmp.48 = 0;
         %tmp.49 = lgetv %dc;
-        symbol [ dc %tmp.49 224 23 25 ];
-        symbol [ getHeight %tmp.50 224 26 35 ];
+        symbol [ dc %tmp.49 225 23 25 ];
+        symbol [ getHeight %tmp.50 225 26 35 ];
         %tmp.50 = getv function %tmp.49 :getHeight;
         %tmp.51 = invoke %tmp.49 %tmp.50();
         %tmp.52 = lgetv %dc;
-        symbol [ dc %tmp.52 224 40 42 ];
-        symbol [ getHeight %tmp.53 224 43 52 ];
+        symbol [ dc %tmp.52 225 40 42 ];
+        symbol [ getHeight %tmp.53 225 43 52 ];
         %tmp.53 = getv function %tmp.52 :getHeight;
         %tmp.54 = invoke %tmp.52 %tmp.53();
         %tmp.55 = 6;
         %tmp.56 = div %tmp.54 %tmp.55;
         %tmp.57 = sub %tmp.51 %tmp.56;
         %tmp.58 = lgetv %dc;
-        symbol [ dc %tmp.58 224 60 62 ];
-        symbol [ getWidth %tmp.59 224 63 71 ];
+        symbol [ dc %tmp.58 225 60 62 ];
+        symbol [ getWidth %tmp.59 225 63 71 ];
         %tmp.59 = getv function %tmp.58 :getWidth;
         %tmp.60 = invoke %tmp.58 %tmp.59();
         %tmp.61 = lgetv %dc;
-        symbol [ dc %tmp.61 224 75 77 ];
-        symbol [ getHeight %tmp.62 224 78 87 ];
+        symbol [ dc %tmp.61 225 75 77 ];
+        symbol [ getHeight %tmp.62 225 78 87 ];
         %tmp.62 = getv function %tmp.61 :getHeight;
         %tmp.63 = invoke %tmp.61 %tmp.62();
         %tmp.64 = lgetv %dc;
-        symbol [ dc %tmp.64 224 92 94 ];
-        symbol [ getHeight %tmp.65 224 95 104 ];
+        symbol [ dc %tmp.64 225 92 94 ];
+        symbol [ getHeight %tmp.65 225 95 104 ];
         %tmp.65 = getv function %tmp.64 :getHeight;
         %tmp.66 = invoke %tmp.64 %tmp.65();
         %tmp.67 = 6;
         %tmp.68 = div %tmp.66 %tmp.67;
         %tmp.69 = sub %tmp.63 %tmp.68;
         invoke %tmp.46 %tmp.47(%tmp.48, %tmp.57, %tmp.60, %tmp.69);
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 225 8 ]
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 226 8 ]
         %tmp.70 = lgetv %dc;
-        symbol [ dc %tmp.70 225 8 10 ];
-        symbol [ drawLine %tmp.71 225 11 19 ];
+        symbol [ dc %tmp.70 226 8 10 ];
+        symbol [ drawLine %tmp.71 226 11 19 ];
         %tmp.71 = getv function %tmp.70 :drawLine;
         %tmp.72 = 0;
-        symbol [ centerY %tmp.74 225 23 30 ];
+        symbol [ centerY %tmp.74 226 23 30 ];
         %tmp.74 = getv ? :centerY;
         %tmp.75 = lgetv %dc;
-        symbol [ dc %tmp.75 225 32 34 ];
-        symbol [ getWidth %tmp.76 225 35 43 ];
+        symbol [ dc %tmp.75 226 32 34 ];
+        symbol [ getWidth %tmp.76 226 35 43 ];
         %tmp.76 = getv function %tmp.75 :getWidth;
         %tmp.77 = invoke %tmp.75 %tmp.76();
-        symbol [ centerY %tmp.79 225 47 54 ];
+        symbol [ centerY %tmp.79 226 47 54 ];
         %tmp.79 = getv ? :centerY;
         invoke %tmp.70 %tmp.71(%tmp.72, %tmp.74, %tmp.77, %tmp.79);
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_219_51_226_4_stop:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_220_51_227_4_stop:
     }
-    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 229; @symbol_functiondef = [getHRColor,229,21,31]; @symbol_param<0> = [currentHR,229,32,41]; @symbol_param<0>_type<0> = [Number,229,45,51]; @symbol_param<1> = [hrZones,229,53,60]; @symbol_param<1>_type<0> = [Array,229,64,69]; @symbol_param<1>_type<1> = [Number,229,70,76]; ]
+    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 230; @symbol_functiondef = [getHRColor,230,21,31]; @symbol_param<0> = [currentHR,230,32,41]; @symbol_param<0>_type<0> = [Number,230,45,51]; @symbol_param<1> = [hrZones,230,53,60]; @symbol_param<1>_type<0> = [Array,230,64,69]; @symbol_param<1>_type<1> = [Number,230,70,76]; ]
     private
     function getHRColor(currentHR as Number, hrZones as Array<Number>) {
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_229_79_244_4_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 230 8 ]
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_8_232_8_if_stmt:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_12_230_44_begin:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_79_245_4_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 231 8 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_8_233_8_if_stmt:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_12_231_44_begin:
         %tmp.1 = lgetv %currentHR;
-        symbol [ currentHR %tmp.1 230 12 21 ];
+        symbol [ currentHR %tmp.1 231 12 21 ];
         %tmp.2 = null;
         %tmp.3 = eq %tmp.1 %tmp.2;
-        bt %tmp.3 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_8_232_8_if_true;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_33_230_44_false:
+        bt %tmp.3 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_8_233_8_if_true;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_33_231_44_false:
         %tmp.4 = lgetv %hrZones;
-        symbol [ hrZones %tmp.4 230 33 40 ];
+        symbol [ hrZones %tmp.4 231 33 40 ];
         %tmp.5 = null;
         %tmp.6 = eq %tmp.4 %tmp.5;
         push %tmp.6;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_33_230_44_end:
-        %tmp.7 = phi [%tmp.3 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_12_230_44_begin] [%tmp.6 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_33_230_44_false] [%tmp.7 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_33_230_44_end];
-        bf %tmp.7 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_8_232_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_8_232_8_if_true:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_50_232_8_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 231 12 ]
-        symbol [ Graphics %tmp.8 231 19 27 ];
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_33_231_44_end:
+        %tmp.7 = phi [%tmp.3 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_12_231_44_begin] [%tmp.6 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_33_231_44_false] [%tmp.7 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_33_231_44_end];
+        bf %tmp.7 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_8_233_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_8_233_8_if_true:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_50_233_8_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 232 12 ]
+        symbol [ Graphics %tmp.8 232 19 27 ];
         %tmp.8 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.9 231 28 39 ];
+        symbol [ COLOR_WHITE %tmp.9 232 28 39 ];
         %tmp.9 = getv %tmp.8 :COLOR_WHITE;
         ret %tmp.9;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_50_232_8_stop:
-        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_8_232_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_8_232_8_if_end:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 233 8 ]
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_233_8_243_8_if_stmt:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_50_233_8_stop:
+        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_8_233_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_231_8_233_8_if_end:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 234 8 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_234_8_244_8_if_stmt:
         %tmp.10 = lgetv %currentHR;
-        symbol [ currentHR %tmp.10 233 12 21 ];
+        symbol [ currentHR %tmp.10 234 12 21 ];
         %tmp.11 = lgetv %hrZones;
-        symbol [ hrZones %tmp.11 233 25 32 ];
+        symbol [ hrZones %tmp.11 234 25 32 ];
         %tmp.12 = 1;
         %tmp.13 = agetv %tmp.11 %tmp.12;
         %tmp.14 = lte %tmp.10 %tmp.13;
-        bf %tmp.14 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_233_8_243_8_if_false;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_233_8_243_8_if_true:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_233_37_235_8_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 234 12 ]
-        symbol [ Graphics %tmp.15 234 19 27 ];
+        bf %tmp.14 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_234_8_244_8_if_false;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_234_8_244_8_if_true:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_234_37_236_8_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 235 12 ]
+        symbol [ Graphics %tmp.15 235 19 27 ];
         %tmp.15 = getm $.Toybox.Graphics;
-        symbol [ COLOR_LT_GRAY %tmp.16 234 28 41 ];
+        symbol [ COLOR_LT_GRAY %tmp.16 235 28 41 ];
         %tmp.16 = getv %tmp.15 :COLOR_LT_GRAY;
         ret %tmp.16;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_233_37_235_8_stop:
-        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_233_8_243_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_233_8_243_8_if_false:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 235 15 ]
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_235_15_243_8_if_stmt:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_234_37_236_8_stop:
+        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_234_8_244_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_234_8_244_8_if_false:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 236 15 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_236_15_244_8_if_stmt:
         %tmp.17 = lgetv %currentHR;
-        symbol [ currentHR %tmp.17 235 19 28 ];
+        symbol [ currentHR %tmp.17 236 19 28 ];
         %tmp.18 = lgetv %hrZones;
-        symbol [ hrZones %tmp.18 235 32 39 ];
+        symbol [ hrZones %tmp.18 236 32 39 ];
         %tmp.19 = 2;
         %tmp.20 = agetv %tmp.18 %tmp.19;
         %tmp.21 = lte %tmp.17 %tmp.20;
-        bf %tmp.21 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_235_15_243_8_if_false;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_235_15_243_8_if_true:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_235_44_237_8_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 236 12 ]
-        symbol [ Graphics %tmp.22 236 19 27 ];
+        bf %tmp.21 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_236_15_244_8_if_false;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_236_15_244_8_if_true:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_236_44_238_8_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 237 12 ]
+        symbol [ Graphics %tmp.22 237 19 27 ];
         %tmp.22 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLUE %tmp.23 236 28 38 ];
+        symbol [ COLOR_BLUE %tmp.23 237 28 38 ];
         %tmp.23 = getv %tmp.22 :COLOR_BLUE;
         ret %tmp.23;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_235_44_237_8_stop:
-        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_235_15_243_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_235_15_243_8_if_false:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 237 15 ]
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_237_15_243_8_if_stmt:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_236_44_238_8_stop:
+        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_236_15_244_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_236_15_244_8_if_false:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 238 15 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_238_15_244_8_if_stmt:
         %tmp.24 = lgetv %currentHR;
-        symbol [ currentHR %tmp.24 237 19 28 ];
+        symbol [ currentHR %tmp.24 238 19 28 ];
         %tmp.25 = lgetv %hrZones;
-        symbol [ hrZones %tmp.25 237 32 39 ];
+        symbol [ hrZones %tmp.25 238 32 39 ];
         %tmp.26 = 3;
         %tmp.27 = agetv %tmp.25 %tmp.26;
         %tmp.28 = lte %tmp.24 %tmp.27;
-        bf %tmp.28 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_237_15_243_8_if_false;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_237_15_243_8_if_true:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_237_44_239_8_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 238 12 ]
-        symbol [ Graphics %tmp.29 238 19 27 ];
+        bf %tmp.28 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_238_15_244_8_if_false;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_238_15_244_8_if_true:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_238_44_240_8_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 239 12 ]
+        symbol [ Graphics %tmp.29 239 19 27 ];
         %tmp.29 = getm $.Toybox.Graphics;
-        symbol [ COLOR_GREEN %tmp.30 238 28 39 ];
+        symbol [ COLOR_GREEN %tmp.30 239 28 39 ];
         %tmp.30 = getv %tmp.29 :COLOR_GREEN;
         ret %tmp.30;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_237_44_239_8_stop:
-        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_237_15_243_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_237_15_243_8_if_false:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 239 15 ]
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_239_15_243_8_if_stmt:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_238_44_240_8_stop:
+        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_238_15_244_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_238_15_244_8_if_false:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 240 15 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_240_15_244_8_if_stmt:
         %tmp.31 = lgetv %currentHR;
-        symbol [ currentHR %tmp.31 239 19 28 ];
+        symbol [ currentHR %tmp.31 240 19 28 ];
         %tmp.32 = lgetv %hrZones;
-        symbol [ hrZones %tmp.32 239 32 39 ];
+        symbol [ hrZones %tmp.32 240 32 39 ];
         %tmp.33 = 4;
         %tmp.34 = agetv %tmp.32 %tmp.33;
         %tmp.35 = lte %tmp.31 %tmp.34;
-        bf %tmp.35 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_239_15_243_8_if_else_false;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_239_15_243_8_if_true:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_239_44_241_8_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 240 12 ]
-        symbol [ Graphics %tmp.36 240 19 27 ];
+        bf %tmp.35 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_240_15_244_8_if_else_false;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_240_15_244_8_if_true:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_240_44_242_8_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 241 12 ]
+        symbol [ Graphics %tmp.36 241 19 27 ];
         %tmp.36 = getm $.Toybox.Graphics;
-        symbol [ COLOR_ORANGE %tmp.37 240 28 40 ];
+        symbol [ COLOR_ORANGE %tmp.37 241 28 40 ];
         %tmp.37 = getv %tmp.36 :COLOR_ORANGE;
         ret %tmp.37;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_239_44_241_8_stop:
-        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_239_15_243_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_239_15_243_8_if_else_false:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_241_15_243_8_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 242 12 ]
-        symbol [ Graphics %tmp.38 242 19 27 ];
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_240_44_242_8_stop:
+        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_240_15_244_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_240_15_244_8_if_else_false:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_242_15_244_8_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 243 12 ]
+        symbol [ Graphics %tmp.38 243 19 27 ];
         %tmp.38 = getm $.Toybox.Graphics;
-        symbol [ COLOR_RED %tmp.39 242 28 37 ];
+        symbol [ COLOR_RED %tmp.39 243 28 37 ];
         %tmp.39 = getv %tmp.38 :COLOR_RED;
         ret %tmp.39;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_241_15_243_8_stop:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_239_15_243_8_if_end:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_237_15_243_8_if_end:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_235_15_243_8_if_end:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_233_8_243_8_if_end:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_229_79_244_4_stop:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_242_15_244_8_stop:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_240_15_244_8_if_end:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_238_15_244_8_if_end:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_236_15_244_8_if_end:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_234_8_244_8_if_end:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_230_79_245_4_stop:
     }
-    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 247; @symbol_functiondef = [formatPace,247,21,31]; @symbol_param<0> = [pace,247,32,36]; @symbol_param<0>_type<0> = [Float,247,40,45]; @symbol_return<0> = [String,247,50,56]; ]
+    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 248; @symbol_functiondef = [formatPace,248,21,31]; @symbol_param<0> = [pace,248,32,36]; @symbol_param<0>_type<0> = [Float,248,40,45]; @symbol_return<0> = [String,248,50,56]; ]
     private
     function formatPace(pace as Float) as String {
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_247_57_256_4_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 248 8 ]
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_248_8_250_8_if_stmt:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_248_57_257_4_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 249 8 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_249_8_251_8_if_stmt:
         %tmp.1 = lgetv %pace;
-        symbol [ pace %tmp.1 248 12 16 ];
+        symbol [ pace %tmp.1 249 12 16 ];
         %tmp.2 = 0;
         %tmp.3 = lte %tmp.1 %tmp.2;
-        bf %tmp.3 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_248_8_250_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_248_8_250_8_if_true:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_248_23_250_8_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 249 12 ]
+        bf %tmp.3 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_249_8_251_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_249_8_251_8_if_true:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_249_23_251_8_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 250 12 ]
         %tmp.4 = "--:--";
         ret %tmp.4;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_248_23_250_8_stop:
-        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_248_8_250_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_248_8_250_8_if_end:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 252 8 ]
-        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_247_57_256_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_247_57_256_4_stop" ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_249_23_251_8_stop:
+        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_249_8_251_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_249_8_251_8_if_end:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 253 8 ]
+        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_248_57_257_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_248_57_257_4_stop" ]
         %minutes.1 = local;
-        symbol [ minutes %minutes.1 252 12 19 ];
+        symbol [ minutes %minutes.1 253 12 19 ];
         %tmp.5 = lgetv %pace;
-        symbol [ pace %tmp.5 252 22 26 ];
-        symbol [ toNumber %tmp.6 252 27 35 ];
+        symbol [ pace %tmp.5 253 22 26 ];
+        symbol [ toNumber %tmp.6 253 27 35 ];
         %tmp.6 = getv function %tmp.5 :toNumber;
         %tmp.7 = invoke %tmp.5 %tmp.6();
         lputv %minutes.1 %tmp.7;
-        symbol [ minutes %minutes.1 252 12 19 ];
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 253 8 ]
-        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_247_57_256_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_247_57_256_4_stop" ]
+        symbol [ minutes %minutes.1 253 12 19 ];
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 254 8 ]
+        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_248_57_257_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_248_57_257_4_stop" ]
         %seconds.2 = local;
-        symbol [ seconds %seconds.2 253 12 19 ];
+        symbol [ seconds %seconds.2 254 12 19 ];
         %tmp.8 = lgetv %pace;
-        symbol [ pace %tmp.8 253 24 28 ];
+        symbol [ pace %tmp.8 254 24 28 ];
         %tmp.9 = lgetv %minutes.1;
-        symbol [ minutes %tmp.9 253 31 38 ];
+        symbol [ minutes %tmp.9 254 31 38 ];
         %tmp.10 = sub %tmp.8 %tmp.9;
         %tmp.11 = 60;
         %tmp.12 = mul %tmp.10 %tmp.11;
-        symbol [ toNumber %tmp.13 253 46 54 ];
+        symbol [ toNumber %tmp.13 254 46 54 ];
         %tmp.13 = getv function %tmp.12 :toNumber;
         %tmp.14 = invoke %tmp.12 %tmp.13();
         lputv %seconds.2 %tmp.14;
-        symbol [ seconds %seconds.2 253 12 19 ];
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 255 8 ]
+        symbol [ seconds %seconds.2 254 12 19 ];
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 256 8 ]
         %tmp.15 = lgetv %minutes.1;
-        symbol [ minutes %tmp.15 255 15 22 ];
-        symbol [ format %tmp.16 255 23 29 ];
+        symbol [ minutes %tmp.15 256 15 22 ];
+        symbol [ format %tmp.16 256 23 29 ];
         %tmp.16 = getv function %tmp.15 :format;
         %tmp.17 = "%d";
         %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
         %tmp.19 = ":";
         %tmp.20 = add %tmp.18 %tmp.19;
         %tmp.21 = lgetv %seconds.2;
-        symbol [ seconds %tmp.21 255 44 51 ];
-        symbol [ format %tmp.22 255 52 58 ];
+        symbol [ seconds %tmp.21 256 44 51 ];
+        symbol [ format %tmp.22 256 52 58 ];
         %tmp.22 = getv function %tmp.21 :format;
         %tmp.23 = "%02d";
         %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
         %tmp.25 = add %tmp.20 %tmp.24;
         ret %tmp.25;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_247_57_256_4_stop:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_248_57_257_4_stop:
     }
-    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 258; @symbol_functiondef = [formatTime,258,21,31]; @symbol_param<0> = [time,258,32,36]; @symbol_param<0>_type<0> = [Float,258,40,45]; @symbol_return<0> = [String,258,50,56]; ]
+    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 259; @symbol_functiondef = [formatTime,259,21,31]; @symbol_param<0> = [time,259,32,36]; @symbol_param<0>_type<0> = [Float,259,40,45]; @symbol_return<0> = [String,259,50,56]; ]
     private
     function formatTime(time as Float) as String {
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_258_57_270_4_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 259 8 ]
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_8_261_8_if_stmt:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_57_271_4_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 260 8 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_260_8_262_8_if_stmt:
         %tmp.1 = lgetv %time;
-        symbol [ time %tmp.1 259 12 16 ];
+        symbol [ time %tmp.1 260 12 16 ];
         %tmp.2 = 0;
         %tmp.3 = lte %tmp.1 %tmp.2;
-        bf %tmp.3 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_8_261_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_8_261_8_if_true:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_23_261_8_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 260 12 ]
+        bf %tmp.3 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_260_8_262_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_260_8_262_8_if_true:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_260_23_262_8_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 261 12 ]
         %tmp.4 = "--:--";
         ret %tmp.4;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_23_261_8_stop:
-        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_8_261_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_8_261_8_if_end:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 263 8 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_260_23_262_8_stop:
+        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_260_8_262_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_260_8_262_8_if_end:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 264 8 ]
         %tmp.5 = lgetv %time;
-        symbol [ time %tmp.5 263 15 19 ];
+        symbol [ time %tmp.5 264 15 19 ];
         %tmp.6 = 1000;
         %tmp.7 = div %tmp.5 %tmp.6;
         lputv %time %tmp.7;
-        symbol [ time %time 263 8 12 ];
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 265 8 ]
-        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_258_57_270_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_258_57_270_4_stop" ]
+        symbol [ time %time 264 8 12 ];
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 266 8 ]
+        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_57_271_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_57_271_4_stop" ]
         %totalSeconds.1 = local;
-        symbol [ totalSeconds %totalSeconds.1 265 12 24 ];
+        symbol [ totalSeconds %totalSeconds.1 266 12 24 ];
         %tmp.8 = lgetv %time;
-        symbol [ time %tmp.8 265 27 31 ];
-        symbol [ toNumber %tmp.9 265 32 40 ];
+        symbol [ time %tmp.8 266 27 31 ];
+        symbol [ toNumber %tmp.9 266 32 40 ];
         %tmp.9 = getv function %tmp.8 :toNumber;
         %tmp.10 = invoke %tmp.8 %tmp.9();
         lputv %totalSeconds.1 %tmp.10;
-        symbol [ totalSeconds %totalSeconds.1 265 12 24 ];
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 266 8 ]
-        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_258_57_270_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_258_57_270_4_stop" ]
+        symbol [ totalSeconds %totalSeconds.1 266 12 24 ];
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 267 8 ]
+        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_57_271_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_57_271_4_stop" ]
         %minutes.2 = local;
-        symbol [ minutes %minutes.2 266 12 19 ];
+        symbol [ minutes %minutes.2 267 12 19 ];
         %tmp.11 = lgetv %totalSeconds.1;
-        symbol [ totalSeconds %tmp.11 266 22 34 ];
+        symbol [ totalSeconds %tmp.11 267 22 34 ];
         %tmp.12 = 60;
         %tmp.13 = div %tmp.11 %tmp.12;
         lputv %minutes.2 %tmp.13;
-        symbol [ minutes %minutes.2 266 12 19 ];
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 267 8 ]
-        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_258_57_270_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_258_57_270_4_stop" ]
+        symbol [ minutes %minutes.2 267 12 19 ];
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 268 8 ]
+        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_57_271_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_57_271_4_stop" ]
         %seconds.3 = local;
-        symbol [ seconds %seconds.3 267 12 19 ];
+        symbol [ seconds %seconds.3 268 12 19 ];
         %tmp.14 = lgetv %totalSeconds.1;
-        symbol [ totalSeconds %tmp.14 267 22 34 ];
+        symbol [ totalSeconds %tmp.14 268 22 34 ];
         %tmp.15 = 60;
         %tmp.16 = mod %tmp.14 %tmp.15;
         lputv %seconds.3 %tmp.16;
-        symbol [ seconds %seconds.3 267 12 19 ];
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 269 8 ]
+        symbol [ seconds %seconds.3 268 12 19 ];
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 270 8 ]
         %tmp.17 = lgetv %minutes.2;
-        symbol [ minutes %tmp.17 269 15 22 ];
-        symbol [ format %tmp.18 269 23 29 ];
+        symbol [ minutes %tmp.17 270 15 22 ];
+        symbol [ format %tmp.18 270 23 29 ];
         %tmp.18 = getv function %tmp.17 :format;
         %tmp.19 = "%d";
         %tmp.20 = invoke %tmp.17 %tmp.18(%tmp.19);
         %tmp.21 = ":";
         %tmp.22 = add %tmp.20 %tmp.21;
         %tmp.23 = lgetv %seconds.3;
-        symbol [ seconds %tmp.23 269 44 51 ];
-        symbol [ format %tmp.24 269 52 58 ];
+        symbol [ seconds %tmp.23 270 44 51 ];
+        symbol [ format %tmp.24 270 52 58 ];
         %tmp.24 = getv function %tmp.23 :format;
         %tmp.25 = "%02d";
         %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
         %tmp.27 = add %tmp.22 %tmp.26;
         ret %tmp.27;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_258_57_270_4_stop:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_259_57_271_4_stop:
     }
-    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 273; @symbol_functiondef = [getPaceFromSpeed,273,21,37]; @symbol_param<0> = [speed,273,38,43]; @symbol_param<0>_type<0> = [Float,273,47,52]; @symbol_return<0> = [Float,273,57,62]; ]
+    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 274; @symbol_functiondef = [getPaceFromSpeed,274,21,37]; @symbol_param<0> = [speed,274,38,43]; @symbol_param<0>_type<0> = [Float,274,47,52]; @symbol_return<0> = [Float,274,57,62]; ]
     private
     function getPaceFromSpeed(speed as Float) as Float {
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_273_63_285_4_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 275 8 ]
-        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_273_63_285_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_273_63_285_4_stop" ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_274_63_286_4_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 276 8 ]
+        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_274_63_286_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_274_63_286_4_stop" ]
         %settings.1 = local;
-        symbol [ settings %settings.1 275 12 20 ];
-        symbol [ System %tmp.2 275 23 29 ];
+        symbol [ settings %settings.1 276 12 20 ];
+        symbol [ System %tmp.2 276 23 29 ];
         %tmp.2 = getv ? :System;
-        symbol [ getDeviceSettings %tmp.3 275 30 47 ];
+        symbol [ getDeviceSettings %tmp.3 276 30 47 ];
         %tmp.3 = getv function %tmp.2 :getDeviceSettings;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %settings.1 %tmp.4;
-        symbol [ settings %settings.1 275 12 20 ];
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 277 8 ]
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_8_283_8_if_stmt:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_12_277_37_begin:
+        symbol [ settings %settings.1 276 12 20 ];
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 278 8 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_8_284_8_if_stmt:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_12_278_37_begin:
         %tmp.5 = lgetv %speed;
-        symbol [ speed %tmp.5 277 12 17 ];
+        symbol [ speed %tmp.5 278 12 17 ];
         %tmp.6 = null;
         %tmp.7 = ne %tmp.5 %tmp.6;
-        bf %tmp.7 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_8_283_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_29_277_37_true:
+        bf %tmp.7 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_8_284_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_29_278_37_true:
         %tmp.8 = lgetv %speed;
-        symbol [ speed %tmp.8 277 29 34 ];
+        symbol [ speed %tmp.8 278 29 34 ];
         %tmp.9 = as %tmp.8 { (!Null) };
         %tmp.10 = 0.2;
         %tmp.11 = gt %tmp.9 %tmp.10;
         push %tmp.11;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_29_277_37_end:
-        %tmp.12 = phi [%tmp.7 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_12_277_37_begin] [%tmp.11 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_29_277_37_true] [%tmp.12 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_29_277_37_end];
-        bf %tmp.12 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_8_283_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_8_283_8_if_true:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_42_283_8_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 278 12 ]
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_12_282_12_if_stmt:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_29_278_37_end:
+        %tmp.12 = phi [%tmp.7 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_12_278_37_begin] [%tmp.11 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_29_278_37_true] [%tmp.12 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_29_278_37_end];
+        bf %tmp.12 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_8_284_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_8_284_8_if_true:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_42_284_8_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 279 12 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_279_12_283_12_if_stmt:
         %tmp.13 = lgetv %settings.1;
-        symbol [ settings %tmp.13 278 16 24 ];
-        symbol [ distanceUnits %tmp.14 278 25 38 ];
+        symbol [ settings %tmp.13 279 16 24 ];
+        symbol [ distanceUnits %tmp.14 279 25 38 ];
         %tmp.14 = getv %tmp.13 :distanceUnits;
-        symbol [ System %tmp.16 278 42 48 ];
+        symbol [ System %tmp.16 279 42 48 ];
         %tmp.16 = getv ? :System;
-        symbol [ UNIT_METRIC %tmp.17 278 49 60 ];
+        symbol [ UNIT_METRIC %tmp.17 279 49 60 ];
         %tmp.17 = getv %tmp.16 :UNIT_METRIC;
         %tmp.18 = eq %tmp.14 %tmp.17;
-        bf %tmp.18 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_12_282_12_if_else_false;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_12_282_12_if_true:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_62_280_12_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 279 16 ]
+        bf %tmp.18 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_279_12_283_12_if_else_false;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_279_12_283_12_if_true:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_279_62_281_12_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 280 16 ]
         %tmp.19 = 1000;
         %tmp.20 = 60;
         %tmp.21 = lgetv %speed;
-        symbol [ speed %tmp.21 279 36 41 ];
+        symbol [ speed %tmp.21 280 36 41 ];
         %tmp.22 = as %tmp.21 { (!Null) };
         %tmp.23 = mul %tmp.20 %tmp.22;
         %tmp.24 = div %tmp.19 %tmp.23;
         ret %tmp.24;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_62_280_12_stop:
-        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_12_282_12_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_12_282_12_if_else_false:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_280_19_282_12_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 281 16 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_279_62_281_12_stop:
+        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_279_12_283_12_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_279_12_283_12_if_else_false:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_281_19_283_12_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 282 16 ]
         %tmp.25 = 26.8224;
         %tmp.26 = lgetv %speed;
-        symbol [ speed %tmp.26 281 33 38 ];
+        symbol [ speed %tmp.26 282 33 38 ];
         %tmp.27 = as %tmp.26 { (!Null) };
         %tmp.28 = div %tmp.25 %tmp.27;
         ret %tmp.28;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_280_19_282_12_stop:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_12_282_12_if_end:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_42_283_8_stop:
-        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_8_283_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_277_8_283_8_if_end:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 284 8 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_281_19_283_12_stop:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_279_12_283_12_if_end:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_42_284_8_stop:
+        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_8_284_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_278_8_284_8_if_end:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 285 8 ]
         %tmp.29 = 0.0f;
         ret %tmp.29;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_273_63_285_4_stop:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_274_63_286_4_stop:
     }
-    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 287; @symbol_functiondef = [formatDistance,287,21,35]; @symbol_param<0> = [meters,287,36,42]; ]
+    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 288; @symbol_functiondef = [formatDistance,288,21,35]; @symbol_param<0> = [meters,288,36,42]; ]
     private
     function formatDistance(meters) {
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_287_44_301_4_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 288 8 ]
-        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_287_44_301_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_287_44_301_4_stop" ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_288_44_302_4_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 289 8 ]
+        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_288_44_302_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_288_44_302_4_stop" ]
         %settings.1 = local;
-        symbol [ settings %settings.1 288 12 20 ];
-        symbol [ System %tmp.2 288 23 29 ];
+        symbol [ settings %settings.1 289 12 20 ];
+        symbol [ System %tmp.2 289 23 29 ];
         %tmp.2 = getv ? :System;
-        symbol [ getDeviceSettings %tmp.3 288 30 47 ];
+        symbol [ getDeviceSettings %tmp.3 289 30 47 ];
         %tmp.3 = getv function %tmp.2 :getDeviceSettings;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %settings.1 %tmp.4;
-        symbol [ settings %settings.1 288 12 20 ];
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 290 8 ]
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_290_8_300_8_if_stmt:
+        symbol [ settings %settings.1 289 12 20 ];
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 291 8 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_8_301_8_if_stmt:
         %tmp.5 = lgetv %settings.1;
-        symbol [ settings %tmp.5 290 12 20 ];
-        symbol [ distanceUnits %tmp.6 290 21 34 ];
+        symbol [ settings %tmp.5 291 12 20 ];
+        symbol [ distanceUnits %tmp.6 291 21 34 ];
         %tmp.6 = getv %tmp.5 :distanceUnits;
-        symbol [ System %tmp.8 290 38 44 ];
+        symbol [ System %tmp.8 291 38 44 ];
         %tmp.8 = getv ? :System;
-        symbol [ UNIT_METRIC %tmp.9 290 45 56 ];
+        symbol [ UNIT_METRIC %tmp.9 291 45 56 ];
         %tmp.9 = getv %tmp.8 :UNIT_METRIC;
         %tmp.10 = eq %tmp.6 %tmp.9;
-        bf %tmp.10 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_290_8_300_8_if_else_false;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_290_8_300_8_if_true:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_290_58_295_8_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 291 12 ]
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_12_293_12_if_stmt:
+        bf %tmp.10 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_8_301_8_if_else_false;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_8_301_8_if_true:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_58_296_8_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 292 12 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_292_12_294_12_if_stmt:
         %tmp.11 = lgetv %meters;
-        symbol [ meters %tmp.11 291 16 22 ];
+        symbol [ meters %tmp.11 292 16 22 ];
         %tmp.12 = 10000;
         %tmp.13 = gt %tmp.11 %tmp.12;
-        bf %tmp.13 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_12_293_12_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_12_293_12_if_true:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_32_293_12_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 292 16 ]
+        bf %tmp.13 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_292_12_294_12_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_292_12_294_12_if_true:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_292_32_294_12_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 293 16 ]
         %tmp.14 = lgetv %meters;
-        symbol [ meters %tmp.14 292 24 30 ];
+        symbol [ meters %tmp.14 293 24 30 ];
         %tmp.15 = 1000.0;
         %tmp.16 = div %tmp.14 %tmp.15;
-        symbol [ format %tmp.17 292 41 47 ];
+        symbol [ format %tmp.17 293 41 47 ];
         %tmp.17 = getv function %tmp.16 :format;
         %tmp.18 = "%.1f";
         %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
         %tmp.20 = " km";
         %tmp.21 = add %tmp.19 %tmp.20;
         ret %tmp.21;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_32_293_12_stop:
-        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_12_293_12_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_12_293_12_if_end:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 294 12 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_292_32_294_12_stop:
+        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_292_12_294_12_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_292_12_294_12_if_end:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 295 12 ]
         %tmp.22 = lgetv %meters;
-        symbol [ meters %tmp.22 294 20 26 ];
+        symbol [ meters %tmp.22 295 20 26 ];
         %tmp.23 = 1000.0;
         %tmp.24 = div %tmp.22 %tmp.23;
-        symbol [ format %tmp.25 294 37 43 ];
+        symbol [ format %tmp.25 295 37 43 ];
         %tmp.25 = getv function %tmp.24 :format;
         %tmp.26 = "%.2f";
         %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
         %tmp.28 = " km";
         %tmp.29 = add %tmp.27 %tmp.28;
         ret %tmp.29;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_290_58_295_8_stop:
-        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_290_8_300_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_290_8_300_8_if_else_false:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_295_15_300_8_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 296 12 ]
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_296_12_298_12_if_stmt:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_58_296_8_stop:
+        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_8_301_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_8_301_8_if_else_false:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_296_15_301_8_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 297 12 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_297_12_299_12_if_stmt:
         %tmp.30 = lgetv %meters;
-        symbol [ meters %tmp.30 296 16 22 ];
+        symbol [ meters %tmp.30 297 16 22 ];
         %tmp.31 = 10000;
         %tmp.32 = gt %tmp.30 %tmp.31;
-        bf %tmp.32 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_296_12_298_12_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_296_12_298_12_if_true:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_296_32_298_12_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 297 16 ]
+        bf %tmp.32 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_297_12_299_12_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_297_12_299_12_if_true:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_297_32_299_12_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 298 16 ]
         %tmp.33 = lgetv %meters;
-        symbol [ meters %tmp.33 297 24 30 ];
+        symbol [ meters %tmp.33 298 24 30 ];
         %tmp.34 = 1609.34;
         %tmp.35 = div %tmp.33 %tmp.34;
-        symbol [ format %tmp.36 297 42 48 ];
+        symbol [ format %tmp.36 298 42 48 ];
         %tmp.36 = getv function %tmp.35 :format;
         %tmp.37 = "%.1f";
         %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
         %tmp.39 = " mi";
         %tmp.40 = add %tmp.38 %tmp.39;
         ret %tmp.40;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_296_32_298_12_stop:
-        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_296_12_298_12_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_296_12_298_12_if_end:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 299 12 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_297_32_299_12_stop:
+        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_297_12_299_12_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_297_12_299_12_if_end:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 300 12 ]
         %tmp.41 = lgetv %meters;
-        symbol [ meters %tmp.41 299 20 26 ];
+        symbol [ meters %tmp.41 300 20 26 ];
         %tmp.42 = 1609.34;
         %tmp.43 = div %tmp.41 %tmp.42;
-        symbol [ format %tmp.44 299 38 44 ];
+        symbol [ format %tmp.44 300 38 44 ];
         %tmp.44 = getv function %tmp.43 :format;
         %tmp.45 = "%.2f";
         %tmp.46 = invoke %tmp.43 %tmp.44(%tmp.45);
         %tmp.47 = " mi";
         %tmp.48 = add %tmp.46 %tmp.47;
         ret %tmp.48;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_295_15_300_8_stop:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_290_8_300_8_if_end:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_287_44_301_4_stop:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_296_15_301_8_stop:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_291_8_301_8_if_end:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_288_44_302_4_stop:
     }
-    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 303; @symbol_functiondef = [setColors,303,21,30]; @symbol_param<0> = [id,303,31,33]; @symbol_param<0>_type<0> = [String,303,37,43]; @symbol_param<1> = [backgroundColor,303,45,60]; @symbol_param<1>_type<0> = [ColorValue,303,64,74]; ]
+    [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 304; @symbol_functiondef = [setColors,304,21,30]; @symbol_param<0> = [id,304,31,33]; @symbol_param<0>_type<0> = [String,304,37,43]; @symbol_param<1> = [backgroundColor,304,45,60]; @symbol_param<1>_type<0> = [ColorValue,304,64,74]; ]
     private
     function setColors(id as String, backgroundColor as ColorValue) as Void {
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_303_84_310_4_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 304 8 ]
-        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_303_84_310_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_303_84_310_4_stop" ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_304_84_311_4_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 305 8 ]
+        [ "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_304_84_311_4_start" "_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_304_84_311_4_stop" ]
         %element.1 = local;
-        symbol [ element %element.1 304 12 19 ];
-        symbol [ View %tmp.2 304 22 26 ];
+        symbol [ element %element.1 305 12 19 ];
+        symbol [ View %tmp.2 305 22 26 ];
         %tmp.2 = getv ? :View;
-        symbol [ findDrawableById %tmp.3 304 27 43 ];
+        symbol [ findDrawableById %tmp.3 305 27 43 ];
         %tmp.3 = getv function %tmp.2 :findDrawableById;
         %tmp.4 = lgetv %id;
-        symbol [ id %tmp.4 304 44 46 ];
+        symbol [ id %tmp.4 305 44 46 ];
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         %tmp.6 = as %tmp.5 Text;
-        symbol [ Text %tmp.6 304 51 55 ];
+        symbol [ Text %tmp.6 305 51 55 ];
         lputv %element.1 %tmp.6;
-        symbol [ element %element.1 304 12 19 ];
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 305 8 ]
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_8_309_8_if_stmt:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_12_305_83_begin:
+        symbol [ element %element.1 305 12 19 ];
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 306 8 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_8_310_8_if_stmt:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_12_306_83_begin:
         %tmp.7 = lgetv %backgroundColor;
-        symbol [ backgroundColor %tmp.7 305 12 27 ];
-        symbol [ Graphics %tmp.8 305 31 39 ];
+        symbol [ backgroundColor %tmp.7 306 12 27 ];
+        symbol [ Graphics %tmp.8 306 31 39 ];
         %tmp.8 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.9 305 40 51 ];
+        symbol [ COLOR_BLACK %tmp.9 306 40 51 ];
         %tmp.9 = getv %tmp.8 :COLOR_BLACK;
         %tmp.10 = eq %tmp.7 %tmp.9;
-        bt %tmp.10 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_8_309_8_if_true;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_55_305_83_false:
+        bt %tmp.10 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_8_310_8_if_true;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_55_306_83_false:
         %tmp.11 = lgetv %backgroundColor;
-        symbol [ backgroundColor %tmp.11 305 55 70 ];
-        symbol [ Graphics %tmp.12 305 74 82 ];
+        symbol [ backgroundColor %tmp.11 306 55 70 ];
+        symbol [ Graphics %tmp.12 306 74 82 ];
         %tmp.12 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.13 305 83 100 ];
+        symbol [ COLOR_TRANSPARENT %tmp.13 306 83 100 ];
         %tmp.13 = getv %tmp.12 :COLOR_TRANSPARENT;
         %tmp.14 = eq %tmp.11 %tmp.13;
         push %tmp.14;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_55_305_83_end:
-        %tmp.15 = phi [%tmp.10 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_12_305_83_begin] [%tmp.14 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_55_305_83_false] [%tmp.15 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_55_305_83_end];
-        bf %tmp.15 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_8_309_8_if_else_false;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_8_309_8_if_true:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_102_307_8_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 306 12 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_55_306_83_end:
+        %tmp.15 = phi [%tmp.10 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_12_306_83_begin] [%tmp.14 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_55_306_83_false] [%tmp.15 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_55_306_83_end];
+        bf %tmp.15 @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_8_310_8_if_else_false;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_8_310_8_if_true:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_102_308_8_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 307 12 ]
         %tmp.16 = lgetv %element.1;
-        symbol [ element %tmp.16 306 12 19 ];
-        symbol [ setColor %tmp.17 306 20 28 ];
+        symbol [ element %tmp.16 307 12 19 ];
+        symbol [ setColor %tmp.17 307 20 28 ];
         %tmp.17 = getv function %tmp.16 :setColor;
-        symbol [ Graphics %tmp.18 306 29 37 ];
+        symbol [ Graphics %tmp.18 307 29 37 ];
         %tmp.18 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.19 306 38 49 ];
+        symbol [ COLOR_WHITE %tmp.19 307 38 49 ];
         %tmp.19 = getv %tmp.18 :COLOR_WHITE;
         invoke %tmp.16 %tmp.17(%tmp.19);
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_102_307_8_stop:
-        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_8_309_8_if_end;
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_8_309_8_if_else_false:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_307_15_309_8_start:
-[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 308 12 ]
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_102_308_8_stop:
+        goto @_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_8_310_8_if_end;
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_8_310_8_if_else_false:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_308_15_310_8_start:
+[ "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" 309 12 ]
         %tmp.20 = lgetv %element.1;
-        symbol [ element %tmp.20 308 12 19 ];
-        symbol [ setColor %tmp.21 308 20 28 ];
+        symbol [ element %tmp.20 309 12 19 ];
+        symbol [ setColor %tmp.21 309 20 28 ];
         %tmp.21 = getv function %tmp.20 :setColor;
-        symbol [ Graphics %tmp.22 308 29 37 ];
+        symbol [ Graphics %tmp.22 309 29 37 ];
         %tmp.22 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.23 308 38 49 ];
+        symbol [ COLOR_BLACK %tmp.23 309 38 49 ];
         %tmp.23 = getv %tmp.22 :COLOR_BLACK;
         invoke %tmp.20 %tmp.21(%tmp.23);
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_307_15_309_8_stop:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_305_8_309_8_if_end:
-_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_303_84_310_4_stop:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_308_15_310_8_stop:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_306_8_310_8_if_end:
+_Users_nikodembakowski_Developer_Garmin_RunningScreen_source_RunningScreenView_mc_304_84_311_4_stop:
     }
 }
 [ @file = "/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc"; @line = 1; ]
