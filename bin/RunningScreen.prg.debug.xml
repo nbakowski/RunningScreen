@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="1" lineNum="6" parent="globals/RunningScreenView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenApp.mc" id="2" lineNum="26" parent="globals" pc="268435472" symbol="getApp"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenApp.mc" id="2" lineNum="27" parent="globals" pc="268435482" symbol="getApp"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenBackground.mc" id="3" lineNum="5" parent="globals/Background" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/bin/gen/006-B4313-00/source/Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenApp.mc" id="5" lineNum="5" parent="globals/RunningScreenApp" pc="268435525" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="6" lineNum="287" parent="globals/RunningScreenView" pc="268435537" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatDistance&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="6" lineNum="288" parent="globals/RunningScreenView" pc="268435540" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatDistance&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="6" lineNum="290" parent="globals/RunningScreenView" pc="268435552" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatDistance&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="6" lineNum="291" parent="globals/RunningScreenView" pc="268435563" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatDistance&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="6" lineNum="292" parent="globals/RunningScreenView" pc="268435572" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatDistance&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="6" lineNum="294" parent="globals/RunningScreenView" pc="268435603" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatDistance&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="6" lineNum="296" parent="globals/RunningScreenView" pc="268435634" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatDistance&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="6" lineNum="297" parent="globals/RunningScreenView" pc="268435643" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatDistance&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="6" lineNum="299" parent="globals/RunningScreenView" pc="268435674" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatDistance&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="28" parent="globals/RunningScreenView" pc="268435703" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="36" parent="globals/RunningScreenView" pc="268435706" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="38" parent="globals/RunningScreenView" pc="268435727" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="42" parent="globals/RunningScreenView" pc="268435739" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="43" parent="globals/RunningScreenView" pc="268435741" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="48" parent="globals/RunningScreenView" pc="268435760" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="54" parent="globals/RunningScreenView" pc="268435779" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="59" parent="globals/RunningScreenView" pc="268435798" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="64" parent="globals/RunningScreenView" pc="268435817" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="69" parent="globals/RunningScreenView" pc="268435836" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="74" parent="globals/RunningScreenView" pc="268435855" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="44" parent="globals/RunningScreenView" pc="268435858" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="45" parent="globals/RunningScreenView" pc="268435865" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="46" parent="globals/RunningScreenView" pc="268435875" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="49" parent="globals/RunningScreenView" pc="268435878" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="50" parent="globals/RunningScreenView" pc="268435888" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="51" parent="globals/RunningScreenView" pc="268435898" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="55" parent="globals/RunningScreenView" pc="268435901" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="56" parent="globals/RunningScreenView" pc="268435908" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="57" parent="globals/RunningScreenView" pc="268435918" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="60" parent="globals/RunningScreenView" pc="268435921" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="61" parent="globals/RunningScreenView" pc="268435931" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="62" parent="globals/RunningScreenView" pc="268435941" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="65" parent="globals/RunningScreenView" pc="268435944" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="66" parent="globals/RunningScreenView" pc="268435951" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="67" parent="globals/RunningScreenView" pc="268435961" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="70" parent="globals/RunningScreenView" pc="268435964" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="71" parent="globals/RunningScreenView" pc="268435971" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="72" parent="globals/RunningScreenView" pc="268435984" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="75" parent="globals/RunningScreenView" pc="268435987" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="76" parent="globals/RunningScreenView" pc="268435991" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="7" lineNum="79" parent="globals/RunningScreenView" pc="268435999" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="8" lineNum="229" parent="globals/RunningScreenView" pc="268436014" symbol="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="8" lineNum="230" parent="globals/RunningScreenView" pc="268436016" symbol="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="8" lineNum="231" parent="globals/RunningScreenView" pc="268436028" symbol="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="8" lineNum="233" parent="globals/RunningScreenView" pc="268436037" symbol="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="8" lineNum="234" parent="globals/RunningScreenView" pc="268436048" symbol="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="8" lineNum="235" parent="globals/RunningScreenView" pc="268436057" symbol="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="8" lineNum="236" parent="globals/RunningScreenView" pc="268436068" symbol="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="8" lineNum="237" parent="globals/RunningScreenView" pc="268436076" symbol="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="8" lineNum="238" parent="globals/RunningScreenView" pc="268436087" symbol="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="8" lineNum="239" parent="globals/RunningScreenView" pc="268436095" symbol="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="8" lineNum="240" parent="globals/RunningScreenView" pc="268436106" symbol="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="8" lineNum="242" parent="globals/RunningScreenView" pc="268436115" symbol="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="9" lineNum="194" parent="globals/RunningScreenView" pc="268436122" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="9" lineNum="195" parent="globals/RunningScreenView" pc="268436125" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="9" lineNum="196" parent="globals/RunningScreenView" pc="268436132" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="9" lineNum="197" parent="globals/RunningScreenView" pc="268436144" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="9" lineNum="198" parent="globals/RunningScreenView" pc="268436195" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawTime&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="129" parent="globals/RunningScreenView" pc="268436212" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="131" parent="globals/RunningScreenView" pc="268436215" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="132" parent="globals/RunningScreenView" pc="268436226" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="133" parent="globals/RunningScreenView" pc="268436237" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="135" parent="globals/RunningScreenView" pc="268436254" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="139" parent="globals/RunningScreenView" pc="268436265" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="140" parent="globals/RunningScreenView" pc="268436276" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="141" parent="globals/RunningScreenView" pc="268436287" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="143" parent="globals/RunningScreenView" pc="268436304" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="146" parent="globals/RunningScreenView" pc="268436315" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="147" parent="globals/RunningScreenView" pc="268436326" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="148" parent="globals/RunningScreenView" pc="268436337" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="149" parent="globals/RunningScreenView" pc="268436354" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="151" parent="globals/RunningScreenView" pc="268436374" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="154" parent="globals/RunningScreenView" pc="268436389" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="155" parent="globals/RunningScreenView" pc="268436400" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="156" parent="globals/RunningScreenView" pc="268436411" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="157" parent="globals/RunningScreenView" pc="268436428" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="159" parent="globals/RunningScreenView" pc="268436448" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="162" parent="globals/RunningScreenView" pc="268436463" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="163" parent="globals/RunningScreenView" pc="268436474" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="164" parent="globals/RunningScreenView" pc="268436485" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="10" lineNum="166" parent="globals/RunningScreenView" pc="268436502" symbol="compute"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="11" lineNum="209" parent="globals/RunningScreenView" pc="268436514" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawHearRateIndicator&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="11" lineNum="210" parent="globals/RunningScreenView" pc="268436516" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawHearRateIndicator&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="11" lineNum="211" parent="globals/RunningScreenView" pc="268436541" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawHearRateIndicator&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="11" lineNum="212" parent="globals/RunningScreenView" pc="268436561" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawHearRateIndicator&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="11" lineNum="213" parent="globals/RunningScreenView" pc="268436573" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawHearRateIndicator&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="11" lineNum="214" parent="globals/RunningScreenView" pc="268436606" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawHearRateIndicator&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="11" lineNum="215" parent="globals/RunningScreenView" pc="268436648" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawHearRateIndicator&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="11" lineNum="216" parent="globals/RunningScreenView" pc="268436689" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawHearRateIndicator&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="12" lineNum="247" parent="globals/RunningScreenView" pc="268436722" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatPace&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="12" lineNum="248" parent="globals/RunningScreenView" pc="268436725" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatPace&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="12" lineNum="249" parent="globals/RunningScreenView" pc="268436732" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatPace&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="12" lineNum="252" parent="globals/RunningScreenView" pc="268436741" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatPace&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="12" lineNum="253" parent="globals/RunningScreenView" pc="268436750" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatPace&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="12" lineNum="255" parent="globals/RunningScreenView" pc="268436766" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatPace&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="84" parent="globals/RunningScreenView" pc="268436802" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="85" parent="globals/RunningScreenView" pc="268436805" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="87" parent="globals/RunningScreenView" pc="268436847" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="88" parent="globals/RunningScreenView" pc="268436856" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="89" parent="globals/RunningScreenView" pc="268436865" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="92" parent="globals/RunningScreenView" pc="268436883" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="93" parent="globals/RunningScreenView" pc="268436913" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="96" parent="globals/RunningScreenView" pc="268436942" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="97" parent="globals/RunningScreenView" pc="268436972" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="98" parent="globals/RunningScreenView" pc="268437002" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="99" parent="globals/RunningScreenView" pc="268437031" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="102" parent="globals/RunningScreenView" pc="268437051" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="103" parent="globals/RunningScreenView" pc="268437081" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="104" parent="globals/RunningScreenView" pc="268437111" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="107" parent="globals/RunningScreenView" pc="268437140" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="108" parent="globals/RunningScreenView" pc="268437170" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="109" parent="globals/RunningScreenView" pc="268437200" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="112" parent="globals/RunningScreenView" pc="268437229" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="113" parent="globals/RunningScreenView" pc="268437259" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="114" parent="globals/RunningScreenView" pc="268437289" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="117" parent="globals/RunningScreenView" pc="268437318" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="118" parent="globals/RunningScreenView" pc="268437348" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="120" parent="globals/RunningScreenView" pc="268437377" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="13" lineNum="121" parent="globals/RunningScreenView" pc="268437394" symbol="onLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="14" lineNum="258" parent="globals/RunningScreenView" pc="268437412" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="14" lineNum="259" parent="globals/RunningScreenView" pc="268437415" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="14" lineNum="260" parent="globals/RunningScreenView" pc="268437422" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="14" lineNum="263" parent="globals/RunningScreenView" pc="268437431" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="14" lineNum="265" parent="globals/RunningScreenView" pc="268437439" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="14" lineNum="266" parent="globals/RunningScreenView" pc="268437448" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="14" lineNum="267" parent="globals/RunningScreenView" pc="268437455" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="14" lineNum="269" parent="globals/RunningScreenView" pc="268437462" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatTime&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="15" lineNum="201" parent="globals/RunningScreenView" pc="268437498" symbol="&lt;globals/RunningScreenView/&lt;&gt;displayData&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="15" lineNum="202" parent="globals/RunningScreenView" pc="268437500" symbol="&lt;globals/RunningScreenView/&lt;&gt;displayData&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="15" lineNum="203" parent="globals/RunningScreenView" pc="268437549" symbol="&lt;globals/RunningScreenView/&lt;&gt;displayData&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="15" lineNum="204" parent="globals/RunningScreenView" pc="268437576" symbol="&lt;globals/RunningScreenView/&lt;&gt;displayData&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="15" lineNum="205" parent="globals/RunningScreenView" pc="268437595" symbol="&lt;globals/RunningScreenView/&lt;&gt;displayData&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="15" lineNum="206" parent="globals/RunningScreenView" pc="268437614" symbol="&lt;globals/RunningScreenView/&lt;&gt;displayData&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="16" lineNum="273" parent="globals/RunningScreenView" pc="268437642" symbol="&lt;globals/RunningScreenView/&lt;&gt;getPaceFromSpeed&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="16" lineNum="275" parent="globals/RunningScreenView" pc="268437645" symbol="&lt;globals/RunningScreenView/&lt;&gt;getPaceFromSpeed&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="16" lineNum="277" parent="globals/RunningScreenView" pc="268437657" symbol="&lt;globals/RunningScreenView/&lt;&gt;getPaceFromSpeed&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="16" lineNum="278" parent="globals/RunningScreenView" pc="268437674" symbol="&lt;globals/RunningScreenView/&lt;&gt;getPaceFromSpeed&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="16" lineNum="279" parent="globals/RunningScreenView" pc="268437685" symbol="&lt;globals/RunningScreenView/&lt;&gt;getPaceFromSpeed&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="16" lineNum="281" parent="globals/RunningScreenView" pc="268437698" symbol="&lt;globals/RunningScreenView/&lt;&gt;getPaceFromSpeed&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="16" lineNum="284" parent="globals/RunningScreenView" pc="268437710" symbol="&lt;globals/RunningScreenView/&lt;&gt;getPaceFromSpeed&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="17" lineNum="303" parent="globals/RunningScreenView" pc="268437712" symbol="&lt;globals/RunningScreenView/&lt;&gt;setColors&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="17" lineNum="304" parent="globals/RunningScreenView" pc="268437715" symbol="&lt;globals/RunningScreenView/&lt;&gt;setColors&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="17" lineNum="305" parent="globals/RunningScreenView" pc="268437736" symbol="&lt;globals/RunningScreenView/&lt;&gt;setColors&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="17" lineNum="306" parent="globals/RunningScreenView" pc="268437751" symbol="&lt;globals/RunningScreenView/&lt;&gt;setColors&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="17" lineNum="308" parent="globals/RunningScreenView" pc="268437769" symbol="&lt;globals/RunningScreenView/&lt;&gt;setColors&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="18" lineNum="19" parent="globals/RunningScreenView" pc="268437781" symbol="initialize"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="18" lineNum="20" parent="globals/RunningScreenView" pc="268437783" symbol="initialize"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="18" lineNum="21" parent="globals/RunningScreenView" pc="268437795" symbol="initialize"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="18" lineNum="22" parent="globals/RunningScreenView" pc="268437803" symbol="initialize"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="18" lineNum="23" parent="globals/RunningScreenView" pc="268437811" symbol="initialize"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="18" lineNum="24" parent="globals/RunningScreenView" pc="268437819" symbol="initialize"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="18" lineNum="25" parent="globals/RunningScreenView" pc="268437831" symbol="initialize"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="19" lineNum="173" parent="globals/RunningScreenView" pc="268437844" symbol="onUpdate"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="19" lineNum="175" parent="globals/RunningScreenView" pc="268437846" symbol="onUpdate"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="19" lineNum="176" parent="globals/RunningScreenView" pc="268437858" symbol="onUpdate"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="19" lineNum="179" parent="globals/RunningScreenView" pc="268437866" symbol="onUpdate"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="19" lineNum="182" parent="globals/RunningScreenView" pc="268437873" symbol="onUpdate"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="19" lineNum="184" parent="globals/RunningScreenView" pc="268437880" symbol="onUpdate"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="19" lineNum="187" parent="globals/RunningScreenView" pc="268437900" symbol="onUpdate"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="19" lineNum="190" parent="globals/RunningScreenView" pc="268437911" symbol="onUpdate"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="20" lineNum="219" parent="globals/RunningScreenView" pc="268437923" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawBorders&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="20" lineNum="220" parent="globals/RunningScreenView" pc="268437925" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawBorders&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="20" lineNum="221" parent="globals/RunningScreenView" pc="268437937" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawBorders&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="20" lineNum="222" parent="globals/RunningScreenView" pc="268437954" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawBorders&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="20" lineNum="223" parent="globals/RunningScreenView" pc="268438002" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawBorders&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="20" lineNum="224" parent="globals/RunningScreenView" pc="268438040" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawBorders&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenView.mc" id="20" lineNum="225" parent="globals/RunningScreenView" pc="268438094" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawBorders&gt;"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenBackground.mc" id="21" lineNum="19" parent="globals/Background" pc="268438123" symbol="setColor"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenBackground.mc" id="21" lineNum="20" parent="globals/Background" pc="268438125" symbol="setColor"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenBackground.mc" id="22" lineNum="9" parent="globals/Background" pc="268438135" symbol="initialize"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenBackground.mc" id="22" lineNum="10" parent="globals/Background" pc="268438138" symbol="initialize"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenBackground.mc" id="22" lineNum="14" parent="globals/Background" pc="268438156" symbol="initialize"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenBackground.mc" id="22" lineNum="16" parent="globals/Background" pc="268438172" symbol="initialize"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenBackground.mc" id="23" lineNum="23" parent="globals/Background" pc="268438182" symbol="draw"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenBackground.mc" id="23" lineNum="24" parent="globals/Background" pc="268438184" symbol="draw"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenBackground.mc" id="23" lineNum="25" parent="globals/Background" pc="268438201" symbol="draw"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenApp.mc" id="24" lineNum="12" parent="globals/RunningScreenApp" pc="268438210" symbol="onStart"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenApp.mc" id="25" lineNum="20" parent="globals/RunningScreenApp" pc="268438213" symbol="getInitialView"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenApp.mc" id="25" lineNum="21" parent="globals/RunningScreenApp" pc="268438215" symbol="getInitialView"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenApp.mc" id="26" lineNum="7" parent="globals/RunningScreenApp" pc="268438241" symbol="initialize"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenApp.mc" id="26" lineNum="8" parent="globals/RunningScreenApp" pc="268438243" symbol="initialize"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/source/RunningScreenApp.mc" id="27" lineNum="16" parent="globals/RunningScreenApp" pc="268438256" symbol="onStop"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/bin/gen/006-B4313-00/source/Rez.mcgen" id="28" lineNum="13" parent="globals/Rez/Layouts" pc="268438259" symbol="MainLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/bin/gen/006-B4313-00/source/Rez.mcgen" id="28" lineNum="14" parent="globals/Rez/Layouts" pc="268438270" symbol="MainLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/bin/gen/006-B4313-00/source/Rez.mcgen" id="28" lineNum="16" parent="globals/Rez/Layouts" pc="268438345" symbol="MainLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/bin/gen/006-B4313-00/source/Rez.mcgen" id="28" lineNum="18" parent="globals/Rez/Layouts" pc="268438420" symbol="MainLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/bin/gen/006-B4313-00/source/Rez.mcgen" id="28" lineNum="20" parent="globals/Rez/Layouts" pc="268438495" symbol="MainLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/bin/gen/006-B4313-00/source/Rez.mcgen" id="28" lineNum="22" parent="globals/Rez/Layouts" pc="268438570" symbol="MainLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/bin/gen/006-B4313-00/source/Rez.mcgen" id="28" lineNum="24" parent="globals/Rez/Layouts" pc="268438645" symbol="MainLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/bin/gen/006-B4313-00/source/Rez.mcgen" id="28" lineNum="26" parent="globals/Rez/Layouts" pc="268438720" symbol="MainLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/bin/gen/006-B4313-00/source/Rez.mcgen" id="28" lineNum="28" parent="globals/Rez/Layouts" pc="268438795" symbol="MainLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/bin/gen/006-B4313-00/source/Rez.mcgen" id="28" lineNum="30" parent="globals/Rez/Layouts" pc="268438870" symbol="MainLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/bin/gen/006-B4313-00/source/Rez.mcgen" id="28" lineNum="32" parent="globals/Rez/Layouts" pc="268438945" symbol="MainLayout"/>
+        <entry filename="/Users/nikodembakowski/Developer/Garmin/RunningScreen/bin/gen/006-B4313-00/source/Rez.mcgen" id="28" lineNum="34" parent="globals/Rez/Layouts" pc="268439020" symbol="MainLayout"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="26" symbol="hrZones"/>
+        <entry id="35" method="true" symbol="MainLayout"/>
+        <entry field="true" id="24" symbol="hrColor"/>
+        <entry id="42" symbol="CENTER_BOTTOM"/>
+        <entry field="true" id="9" symbol="avg_pace"/>
+        <entry field="true" id="28" symbol="pace"/>
+        <entry id="6" object="true" symbol="RunningScreenApp"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="41" symbol="CENTER_TOP"/>
+        <entry id="7" object="true" symbol="RunningScreenView"/>
+        <entry field="true" id="36" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry field="true" id="29" symbol="paceValue"/>
+        <entry id="31" method="true" symbol="&lt;globals/RunningScreenView/&lt;&gt;setColors&gt;"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="8389138" symbol="label"/>
+        <entry id="23" method="true" symbol="&lt;globals/RunningScreenView/&lt;&gt;getPaceFromSpeed&gt;"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="12" symbol="current_time"/>
+        <entry id="17" method="true" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawTime&gt;"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="38" symbol="TOP_RIGHT"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="8388738" symbol="currentSpeed"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="20" method="true" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatPace&gt;"/>
+        <entry id="30" method="true" symbol="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;"/>
+        <entry id="16" method="true" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawHearRateIndicator&gt;"/>
+        <entry id="19" method="true" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatDistance&gt;"/>
+        <entry field="true" id="18" symbol="elapsed_time"/>
+        <entry id="8389131" method="true" symbol="setColor"/>
+        <entry field="true" id="8388911" symbol="distance"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="25" symbol="hrValue"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="13" method="true" symbol="&lt;globals/RunningScreenView/&lt;&gt;displayData&gt;"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="8" symbol="avgPaceValue"/>
+        <entry field="true" id="8389130" symbol="mColor"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="34" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="40" symbol="BOTTOM_RIGHT"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="39" symbol="BOTTOM_LEFT"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry field="true" id="11" symbol="centerY"/>
+        <entry field="true" id="10" symbol="centerX"/>
+        <entry id="21" method="true" symbol="&lt;globals/RunningScreenView/&lt;&gt;formatTime&gt;"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="27" symbol="hr_value"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="32" symbol="tiny_text_height"/>
+        <entry field="true" id="8388747" symbol="currentHeartRate"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry field="true" id="8388732" symbol="elapsedTime"/>
+        <entry id="15" method="true" symbol="&lt;globals/RunningScreenView/&lt;&gt;drawBorders&gt;"/>
+        <entry field="true" id="8388734" symbol="elapsedDistance"/>
+        <entry id="33" module="true" symbol="Layouts"/>
+        <entry id="22" method="true" symbol="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;"/>
+        <entry field="true" id="14" symbol="distanceValue"/>
+        <entry field="true" id="8388739" symbol="averageSpeed"/>
+        <entry field="true" id="8389743" symbol="backgroundColor"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry id="37" symbol="TOP_LEFT"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435702" name="meters" stackId="1" startPc="268435537"/>
+        <entry endPc="268435701" name="settings" stackId="2" startPc="268435540"/>
+        <entry arg="true" endPc="268436013" name="id" stackId="1" startPc="268435703"/>
+        <entry arg="true" endPc="268436013" name="text" stackId="2" startPc="268435703"/>
+        <entry arg="true" endPc="268436013" name="screenWidth" stackId="3" startPc="268435703"/>
+        <entry arg="true" endPc="268436013" name="screenHeight" stackId="4" startPc="268435703"/>
+        <entry arg="true" endPc="268436013" name="position" stackId="5" startPc="268435703"/>
+        <entry arg="true" endPc="268436013" name="yOffset" stackId="6" startPc="268435703"/>
+        <entry endPc="268436012" name="textElement" stackId="7" startPc="268435706"/>
+        <entry endPc="268436012" name="x" stackId="8" startPc="268435706"/>
+        <entry endPc="268436012" name="y" stackId="9" startPc="268435706"/>
+        <entry arg="true" endPc="268436121" name="currentHR" stackId="1" startPc="268436014"/>
+        <entry arg="true" endPc="268436121" name="hrZones" stackId="2" startPc="268436014"/>
+        <entry endPc="268436210" name="timeFormat" stackId="1" startPc="268436125"/>
+        <entry endPc="268436210" name="clockTime" stackId="2" startPc="268436125"/>
+        <entry endPc="268436210" name="timeString" stackId="3" startPc="268436125"/>
+        <entry arg="true" endPc="268436513" name="info" stackId="1" startPc="268436212"/>
+        <entry endPc="268436370" name="rawPace" stackId="2" startPc="268436337"/>
+        <entry endPc="268436444" name="rawPace" stackId="3" startPc="268436411"/>
+        <entry arg="true" endPc="268436721" name="dc" stackId="1" startPc="268436514"/>
+        <entry arg="true" endPc="268436801" name="pace" stackId="1" startPc="268436722"/>
+        <entry endPc="268436801" name="minutes" stackId="2" startPc="268436725"/>
+        <entry endPc="268436801" name="seconds" stackId="3" startPc="268436725"/>
+        <entry arg="true" endPc="268437411" name="dc" stackId="1" startPc="268436802"/>
+        <entry endPc="268437410" name="screenWidth" stackId="2" startPc="268436805"/>
+        <entry endPc="268437410" name="screenHeight" stackId="3" startPc="268436805"/>
+        <entry arg="true" endPc="268437497" name="time" stackId="1" startPc="268437412"/>
+        <entry endPc="268437497" name="totalSeconds" stackId="2" startPc="268437415"/>
+        <entry endPc="268437497" name="minutes" stackId="3" startPc="268437415"/>
+        <entry endPc="268437497" name="seconds" stackId="4" startPc="268437415"/>
+        <entry arg="true" endPc="268437711" name="speed" stackId="1" startPc="268437642"/>
+        <entry endPc="268437711" name="settings" stackId="2" startPc="268437645"/>
+        <entry arg="true" endPc="268437780" name="id" stackId="1" startPc="268437712"/>
+        <entry arg="true" endPc="268437780" name="backgroundColor" stackId="2" startPc="268437712"/>
+        <entry endPc="268437779" name="element" stackId="3" startPc="268437715"/>
+        <entry arg="true" endPc="268437922" name="dc" stackId="1" startPc="268437844"/>
+        <entry arg="true" endPc="268438122" name="dc" stackId="1" startPc="268437923"/>
+        <entry arg="true" endPc="268438134" name="color" stackId="1" startPc="268438123"/>
+        <entry endPc="268438180" name="dictionary" stackId="1" startPc="268438138"/>
+        <entry arg="true" endPc="268438209" name="dc" stackId="1" startPc="268438182"/>
+        <entry arg="true" endPc="268439074" name="dc" stackId="1" startPc="268438259"/>
+        <entry endPc="268439074" name="rez_cmp_local_text_current_time" stackId="2" startPc="268438270"/>
+        <entry endPc="268439074" name="rez_cmp_local_text_hr_label" stackId="3" startPc="268438270"/>
+        <entry endPc="268439074" name="rez_cmp_local_text_hr_value" stackId="4" startPc="268438270"/>
+        <entry endPc="268439074" name="rez_cmp_local_text_dist_label" stackId="5" startPc="268438270"/>
+        <entry endPc="268439074" name="rez_cmp_local_text_dist_value" stackId="6" startPc="268438270"/>
+        <entry endPc="268439074" name="rez_cmp_local_text_pace_label" stackId="7" startPc="268438270"/>
+        <entry endPc="268439074" name="rez_cmp_local_text_pace_value" stackId="8" startPc="268438270"/>
+        <entry endPc="268439074" name="rez_cmp_local_text_avg_pace_label" stackId="9" startPc="268438270"/>
+        <entry endPc="268439074" name="rez_cmp_local_text_avg_pace_value" stackId="10" startPc="268438270"/>
+        <entry endPc="268439074" name="rez_cmp_local_text_elapsed_time" stackId="11" startPc="268438270"/>
+    </localVars>
+    <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4313-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="label"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/RunningScreenView" offset="134" parentId="globals" symbolId="RunningScreenView" type="class"/>
+        <dataEntry label="globals/Background" offset="448" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="519" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/RunningScreenApp" offset="572" parentId="globals" symbolId="RunningScreenApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="643" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="678" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="713" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="RunningScreenView" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435492" name="getApp" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435504" name="&lt;init&gt;" parent="Background" startPc="268435493">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="RunningScreenApp" startPc="268435525">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268435702" name="&lt;globals/RunningScreenView/&lt;&gt;formatDistance&gt;" parent="RunningScreenView" startPc="268435537">
+            <param id="meters"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436013" name="&lt;globals/RunningScreenView/&lt;&gt;placeDataField&gt;" parent="RunningScreenView" startPc="268435703">
+            <param id="id"/>
+            <param id="text"/>
+            <param id="screenWidth"/>
+            <param id="screenHeight"/>
+            <param id="position"/>
+            <param id="yOffset"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436121" name="&lt;globals/RunningScreenView/&lt;&gt;getHRColor&gt;" parent="RunningScreenView" startPc="268436014">
+            <param id="currentHR"/>
+            <param id="hrZones"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436211" name="&lt;globals/RunningScreenView/&lt;&gt;drawTime&gt;" parent="RunningScreenView" startPc="268436122">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436513" name="compute" parent="RunningScreenView" startPc="268436212">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436721" name="&lt;globals/RunningScreenView/&lt;&gt;drawHearRateIndicator&gt;" parent="RunningScreenView" startPc="268436514">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436801" name="&lt;globals/RunningScreenView/&lt;&gt;formatPace&gt;" parent="RunningScreenView" startPc="268436722">
+            <param id="pace"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437411" name="onLayout" parent="RunningScreenView" startPc="268436802">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437497" name="&lt;globals/RunningScreenView/&lt;&gt;formatTime&gt;" parent="RunningScreenView" startPc="268437412">
+            <param id="time"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437641" name="&lt;globals/RunningScreenView/&lt;&gt;displayData&gt;" parent="RunningScreenView" startPc="268437498">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437711" name="&lt;globals/RunningScreenView/&lt;&gt;getPaceFromSpeed&gt;" parent="RunningScreenView" startPc="268437642">
+            <param id="speed"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437780" name="&lt;globals/RunningScreenView/&lt;&gt;setColors&gt;" parent="RunningScreenView" startPc="268437712">
+            <param id="id"/>
+            <param id="backgroundColor"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437843" name="initialize" parent="RunningScreenView" startPc="268437781">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437922" name="onUpdate" parent="RunningScreenView" startPc="268437844">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268438122" name="&lt;globals/RunningScreenView/&lt;&gt;drawBorders&gt;" parent="RunningScreenView" startPc="268437923">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438134" name="setColor" parent="Background" startPc="268438123">
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438181" name="initialize" parent="Background" startPc="268438135">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438209" name="draw" parent="Background" startPc="268438182">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438212" name="onStart" parent="RunningScreenApp" startPc="268438210">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438240" name="getInitialView" parent="RunningScreenApp" startPc="268438213">
+            <documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438255" name="initialize" parent="RunningScreenApp" startPc="268438241">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438258" name="onStop" parent="RunningScreenApp" startPc="268438256">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439074" name="MainLayout" parent="Layouts" startPc="268438259">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
