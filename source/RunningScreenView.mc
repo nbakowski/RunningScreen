@@ -15,6 +15,12 @@ class RunningScreenView extends WatchUi.DataField {
     var tiny_text_height;
     var centerX, centerY;
 
+    // Field offset positions
+    const top_label_height = -10;
+    const top_value_height = top_label_height + 25;
+    const bottom_label_height = 5;
+    const bottom_value_height = bottom_label_height + 25;
+
 
     function initialize() {
         DataField.initialize();
@@ -93,28 +99,28 @@ class RunningScreenView extends WatchUi.DataField {
         current_time = View.findDrawableById("current_time") as Text;
         
         // HR
-        placeDataField("hr_label", "HR", screenWidth, screenHeight, :TOP_LEFT, -20);
-        placeDataField("hr_value", "", screenWidth, screenHeight, :TOP_LEFT, 20);
+        placeDataField("hr_label", "HR", screenWidth, screenHeight, :TOP_LEFT, top_label_height);
+        placeDataField("hr_value", "", screenWidth, screenHeight, :TOP_LEFT, top_value_height);
         hr_value = View.findDrawableById("hr_value") as Text;
         hrZones = UserProfile.getHeartRateZones(UserProfile.HR_ZONE_SPORT_GENERIC) as Array<Number>;
 
         // Dist
-        placeDataField("dist_label", "DIST", screenWidth, screenHeight, :TOP_RIGHT, -20);
-        placeDataField("dist_value", "", screenWidth, screenHeight, :TOP_RIGHT, 20);
+        placeDataField("dist_label", "DIST", screenWidth, screenHeight, :TOP_RIGHT, top_label_height);
+        placeDataField("dist_value", "", screenWidth, screenHeight, :TOP_RIGHT, top_value_height);
         distance = View.findDrawableById("dist_value") as Text;
 
         // Pace
-        placeDataField("pace_label", "PACE", screenWidth, screenHeight, :BOTTOM_LEFT, 20);
-        placeDataField("pace_value", "", screenWidth, screenHeight, :BOTTOM_LEFT, 60);
+        placeDataField("pace_label", "PACE", screenWidth, screenHeight, :BOTTOM_LEFT, bottom_label_height);
+        placeDataField("pace_value", "", screenWidth, screenHeight, :BOTTOM_LEFT, bottom_value_height);
         pace = View.findDrawableById("pace_value") as Text;
 
         // Average pace
-        placeDataField("avg_pace_label", "AVG. PACE", screenWidth, screenHeight, :BOTTOM_RIGHT, 20);
-        placeDataField("avg_pace_value", "", screenWidth, screenHeight, :BOTTOM_RIGHT, 60);
+        placeDataField("avg_pace_label", "AVG. PACE", screenWidth, screenHeight, :BOTTOM_RIGHT, bottom_label_height);
+        placeDataField("avg_pace_value", "", screenWidth, screenHeight, :BOTTOM_RIGHT, bottom_value_height);
         avg_pace = View.findDrawableById("avg_pace_value") as Text;
 
         // Elapsed time
-        placeDataField("elapsed_time", "", screenWidth, screenHeight, :CENTER_BOTTOM, 20);
+        placeDataField("elapsed_time", "", screenWidth, screenHeight, :CENTER_BOTTOM, 10);
         elapsed_time = View.findDrawableById("elapsed_time") as Text;
 
         centerX = dc.getWidth() / 2;
